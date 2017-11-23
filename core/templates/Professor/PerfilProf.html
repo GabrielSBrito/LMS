@@ -1,0 +1,72 @@
+﻿{% extends 'Professor/BaseProfessor.html' %}
+
+{% block titulo %} Editar - Perfil {% endblock %}
+{% block nome_pagina %}Perfil{% endblock %}
+
+{% block corpo %}
+    <div class="container pos respon">
+        <div class="section">
+            <div class="row center">
+            <div class="col s12">
+                <form action='' method="post" >
+                    <!--Formulário para editar dados-->
+                        <div class="col s12 m12 l12">
+                            <div class="file-field input-field">
+                                <div class="btn">
+                                    <span>Foto de Perfil</span>
+                                </div>
+
+                                    <input type="file" accept=".jpg, .pdf, .png">
+                                </div>
+
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text" placeholder="Upload one or more files">
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="end" type="text" class="validate">
+                            <label for="end">Endereço</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="num" type="text" class="validate">
+                            <label for="num">Número</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Nova Senha</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Confirmar Senha</label>
+                        </div>
+                    </div>
+                    <br />
+                    <button class="btn-large waves-effect waves-light blue" type="submit">Salvar</button>
+                </form>
+                </div>
+                
+            </div>
+            <br><br>
+
+        </div>
+    </div>
+    <br><br>
+{% endblock %}
