@@ -1,6 +1,6 @@
 # LMS
 
-Django==1.11.7
-django-pyodbc-azure==1.11.0.0
-pyodbc==4.0.21
-pytz==2017.3
+# Django==1.11.7
+# django-pyodbc-azure==1.11.0.0
+# pyodbc==4.0.21
+# pytz==2017.3
