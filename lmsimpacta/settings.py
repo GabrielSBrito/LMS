@@ -99,8 +99,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
         'NAME': 'Teste1700678',
-        'USER': 'gabriel.silva.sti@gmail.com',
-        'PASSWORD': 'BielX360',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'teste1700678.database.windows.net',
         'PORT': '',
 
